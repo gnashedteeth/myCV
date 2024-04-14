@@ -6,9 +6,9 @@ certifications <- tribble(
 )
 
 skills <- tribble(
-    ~area, ~skills,
+    ~area, ~detail,
     "Leadership", "Communication, Strategic Thinking, Adaptability, Empathy, Motivating others, Decision making, Integrity, Accountability",
-    "Management", "Stakeholder management, Schedule adherance, Resource allocation, Task tracking and reporting, ",
+    "Management", "Stakeholder management, Schedule adherance, Resource allocation, Task tracking and reporting, Technical direction and feedback, People management, Risk management, Change mangement",
     "Programming Languages", "Python, SQL",
     "Markup Languages", "CSS, HTML, Markdown, RMarkdown",
     "Adobe Suite", "Illustrator, Photoshop, InDesign, XD",
@@ -41,3 +41,11 @@ hobbies <- tribble(
       "Reading", 1998,
       "Learning", 1987
   )
+
+values <- tribble(
+    ~what,
+      "Respect",
+      "Communication",
+      "Discipline",
+      "Integrity"
+)

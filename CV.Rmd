@@ -74,7 +74,7 @@ edu %>%
 skills %>%
   detailed_entries(
     with = area,
-    what = skills
+    why = detail
   )
 
 ```
@@ -101,3 +101,11 @@ hobbies %>%
   )
 ```
 
+# Values
+
+```{r VALUES}
+values %>%
+    detailed_entries(
+      with = what
+    )
+```
