@@ -22,9 +22,10 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~where, ~startMonth, ~startYear, ~endMonth, ~endYear, ~detail,
+      "Program Manager", "Training Department", "Warrant Technologies", "April", 2023, "Present", NA, "RESPONSIBLE FOR --- Enabling a successful Training Department, Supporting schedule adherance and quality deliverables, Identifying high-quality team members, Aligning department capabilities with operational direction and business goals, Supporting Senior Managment and providing feedback, Coaching, Mentoring, Process Improvement, Risk/Threat Assessment",
+      "Creative Director", "---", "Vapor Bank/Frontier Liquors", "March", 2012, "December", 2015, "RESPONSIBLE FOR --- Product Branding & Package Design, Creative Direction, Print/Online/Multimedia Marketing, Trade-show Booth Design, Technical Support, Personnel Management, Customer Service",
       "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "RESPONSIBLE FOR --- Business Development, Stakeholder Management, Project Management, Technical Execution, Contract Management, QA",
       "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "INDUSTRIES SUPPORTED --- Education/Academia, Small Business, Not-for-Profit, Alcohol/Tobacco",
-      "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "PRODUCTS DEVELOPED --- Logos & Identity Packages, Business Cards, Product Packaging, Print Advertisements/Publications, Media Packaging, Promotional Materials, Convention Booths, Websites, Online Advertisements",
-      "Program Manager", "Training Department", "Warrant Technologies", "April", 2023, "Present", NA, "RESPONSIBLE FOR --- Enabling a successful Training Department, Supporting schedule adherance and quality deliverables, Identifying high-quality team members, "
+      "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "PRODUCTS DEVELOPED --- Logos & Identity Packages, Business Cards, Product Packaging, Print Advertisements/Publications, Media Packaging, Promotional Materials, Convention Booths, Websites, Online Advertisements"
 
 )
