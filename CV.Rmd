@@ -2,12 +2,15 @@
 name: Bruce
 surname: Bolin
 position: "Training Program Manager"
-address: "Bloomington Indiana"
+address: "Bloomington IN"
 profilepic: "./img/2023professionalMe.png"
 email: "bruce.bolin@warranttek.com"
+phone: 812-430-0184
+github: "gnashedteeth"
+extrainfo: ENTP
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: 990000
-aboutme: "I am a budding leader with a history of managing creative endeavors and delivering superior quality results. Curiousity, Communication, and Compassion are the skills I leverage most often to navigate the intricacies of  "
+headcolor: 4E9AAA
+aboutme: "I am a budding leader with a history of managing creative endeavors and delivering superior results. Curiousity, Communication, and Compassion are the skills I leverage most often to navigate the intricacies of  leadership. I love to solve problems and investigate how things are connected. What puzzle do you have for me today?"
 docname: CV
 output: vitae::awesomecv
 ---
@@ -62,6 +65,8 @@ edu %>%
 
 ```
 
+\pagebreak
+
 # Skills
 
 ```{r SKILLS}
@@ -85,3 +90,14 @@ certifications %>%
   )
 
 ```
+
+# Hobbies
+
+```{r HOBBIES}
+hobbies %>%
+  detailed_entries(
+    with = passtime,
+    when = startYear
+  )
+```
+
