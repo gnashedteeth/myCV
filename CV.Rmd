@@ -1,16 +1,21 @@
 ---
 name: Bruce
 surname: Bolin
-position: "Training Program Manager"
+position: "Operations Manager"
 address: "Bloomington IN"
 profilepic: "./img/2023professionalMe.png"
 email: "bruce.bolin@warranttek.com"
 phone: 812-430-0184
-github: "gnashedteeth"
 extrainfo: ENTP
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 4E9AAA
 aboutme: "I am a budding leader with a history of managing creative endeavors and delivering superior results. Curiousity, Communication, and Compassion are the skills I leverage most often to navigate the intricacies of  leadership. I love to solve problems and investigate how things are connected. What puzzle do you have for me today?"
+header-includes:
+  - \hyphenpenalty=10000
+  - \exhyphenpenalty=10000
+  - \emergencystretch=2em
+  - \usepackage{etoolbox}
+  - \apptocmd{\endcvitems}{\vspace{3.0mm}}{}{}
 docname: CV
 output: vitae::awesomecv
 ---
@@ -34,6 +39,34 @@ xfun::pkg_attach2(packages, message = FALSE)
 
 source(file = here("r","data.r"))
 
+fmt_when <- function(startMonth, startYear, endMonth, endYear) {
+  mapply(function(sm, sy, em, ey) {
+    clean <- function(...) {
+      x <- unlist(list(...), use.names = FALSE)
+      x <- x[!is.na(x)]
+      x <- trimws(as.character(x))
+      x <- x[nzchar(x)]
+      paste(x, collapse = " ")
+    }
+
+    paste0(clean(sm, sy), " --> ", clean(em, ey))
+  }, startMonth, startYear, endMonth, endYear, USE.NAMES = FALSE)
+}
+
+edu_when <- function(startYear, endYear) {
+  mapply(function(sy, ey) {
+    if (!is.na(sy) && !is.na(ey)) {
+      paste0(sy, " --> ", ey)
+    } else if (is.na(sy) && !is.na(ey)) {
+      paste0("Expected ", ey)
+    } else if (!is.na(sy) && is.na(ey)) {
+      as.character(sy)
+    } else {
+      ""
+    }
+  }, startYear, endYear, USE.NAMES = FALSE)
+}
+
 ```
 
 # Employment
@@ -45,7 +78,7 @@ work %>%
     with = title,
     what = unit, 
     why = detail,
-    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    when = fmt_when(startMonth, startYear, endMonth, endYear),
     where = where
   )
 
@@ -59,7 +92,7 @@ edu %>%
   detailed_entries(
     what = focus,
     why = detail,
-    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    when = edu_when(startYear, endYear),
     where = where
   )
 

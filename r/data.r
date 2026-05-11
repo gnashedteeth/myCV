@@ -17,20 +17,20 @@ skills <- tribble(
 
 edu <- tribble(
     ~where, ~startYear, ~endYear, ~focus, ~detail,
-    "University of Southern Indiana", 2006, 2011, "Interactive Media Design/Printmaking", "Graphic Design Merit Award, 2008",
-    "University of Southern Indiana", 2006, 2011, "Interactive Media Design/Printmaking", "Interactive Media Merit Award, 2009",
+    "Western Governors University", NA, 2027, "Bachelor's in Business Management", "Expected graduation 2027",
     "Boonville High School", 2002, 2006, "Academic Honors", "National Honors Society"
 )
 
 work <- tribble(
     ~title, ~unit, ~where, ~startMonth, ~startYear, ~endMonth, ~endYear, ~detail,
-      "Program Manager", "Training Department", "Warrant Technologies", "April", 2023, "Present", NA, "RESPONSIBLE FOR --- Enabling a successful Training Department, Supporting schedule adherance and quality deliverables, Identifying high-quality team members, Aligning department capabilities with operational direction and business goals, Supporting Senior Managment and providing feedback, Coaching, Mentoring, Process Improvement, Risk/Threat Assessment, Employee reviews and career development",
-      "Project Manager", "Training Department", "Warrant Technologies", "April", 2022, "April", 2023, "RESPONSIBLE FOR --- Successful development and delivery of Workforce Development Curriculum to stakeholders, Stakeholder management, Timekeeping and Cost reporting to stakeholders, Project planning, Schedule management, Risk/threat assessment, Quality Focal Point on deliverables, Process Management, Identifying high-quality team members,", 
-      "Technical Writer", "WXM WFD Curriculum Development, Project Leadership, LFUCG Data Dashboard, CMMI Appraisal, NASA SBIR", "Warrant Technologies", "October", 2019, "April", 2022, "RESPONSIBLE FOR --- Layout and Design of training curriculum, Technical editing of Training Curriculum and Proposal artifacts, Process documentation development and management, Quality focal point, Data dashboard design and deployment, Template design and development, Process training development and deployment, Successful CMMI appraisal, Lab management, Website design and development, Construction and Assembly of research platforms",     
-      "Creative Director", "---", "Vapor Bank/Frontier Liquors", "March", 2012, "December", 2015, "RESPONSIBLE FOR --- Product Branding and Package Design, Creative Direction, Print/Online/Multimedia Marketing, Trade-show Booth Design, Technical Support, Personnel Management, Customer Service",
-      "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "RESPONSIBLE FOR --- Business Development, Stakeholder Management, Project Management, Technical Execution, Contract Management, QA",
-      "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "INDUSTRIES SUPPORTED --- Education/Academia, Small Business, Not-for-Profit, Alcohol/Tobacco",
-      "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "PRODUCTS DEVELOPED --- Logos & Identity Packages, Business Cards, Product Packaging, Print Advertisements/Publications, Media Packaging, Promotional Materials, Convention Booths, Websites, Online Advertisements"
+      "Operations Manager", "Training Department", "Warrant Technologies", "2024", NA, "Present", NA, "Process and risk management; business-development capture; proposal response; team development; manager support; performance management; stakeholder coordination",
+      "Program Manager", "Training Department", "Warrant Technologies", "2023", NA, "2024", NA, "Training leadership; quality delivery; team selection; operational alignment; coaching and mentoring; process improvement; risk management; career development",
+      "Project Manager", "Training Department", "Warrant Technologies", "April", 2022, "April", 2023, "Curriculum delivery; stakeholder management; time/cost reporting; project planning; schedule management; quality focal point; process management; team selection", 
+      "Technical Writer", "WXM WFD Curriculum Development, Project Leadership, LFUCG Data Dashboard, CMMI Appraisal, NASA SBIR", "Warrant Technologies", "October", 2019, "April", 2022, "Curriculum layout/design; proposal editing; process documentation; data dashboards; templates; process training; CMMI appraisal; lab, website, and research platform support",     
+      "Creative Director", "---", "Vapor Bank/Frontier Liquors", "March", 2012, "December", 2015, "Product branding and package design; creative direction; print/online/multimedia marketing; trade-show booth design; technical support; personnel management; customer service",
+      "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "Business development; stakeholder management; project management; technical execution; contract management; QA",
+      "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "Industries supported: Education/academia, small business, not-for-profit, alcohol/tobacco",
+      "Sole Proprietor", "---", "Freelance Creative", "Fall", 2004, "Present", NA, "Products developed: logos & identity packages, business cards, product packaging, print advertisements/publications, media packaging, promotional materials, convention booths, websites, online advertisements"
 
 )
 
