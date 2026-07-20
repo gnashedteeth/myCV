@@ -23,7 +23,8 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~where, ~startMonth, ~startYear, ~endMonth, ~endYear, ~detail,
-      "Operations Manager", "Training Department", "Warrant Technologies", "2024", NA, "Present", NA, "Process and risk management; business-development capture; proposal response; team development; manager support; performance management; stakeholder coordination",
+      "Director of Operations", " ", "Warrant Technologies", "2025", NA, "Present", NA, "Regulatory Compliance; Manage and Maintaine the Opportunity Pipeline; proposal response; Organizational development; manager support; performance management; stakeholder coordination",
+      "Operations Manager", " ", "Warrant Technologies", "2024", NA, "2025", NA, "Process and risk management; business-development capture; proposal response; team development; manager support; performance management; stakeholder coordination",
       "Program Manager", "Training Department", "Warrant Technologies", "2023", NA, "2024", NA, "Training leadership; quality delivery; team selection; operational alignment; coaching and mentoring; process improvement; risk management; career development",
       "Project Manager", "Training Department", "Warrant Technologies", "April", 2022, "April", 2023, "Curriculum delivery; stakeholder management; time/cost reporting; project planning; schedule management; quality focal point; process management; team selection", 
       "Technical Writer", "WXM WFD Curriculum Development, Project Leadership, LFUCG Data Dashboard, CMMI Appraisal, NASA SBIR", "Warrant Technologies", "October", 2019, "April", 2022, "Curriculum layout/design; proposal editing; process documentation; data dashboards; templates; process training; CMMI appraisal; lab, website, and research platform support",     
