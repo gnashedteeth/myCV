@@ -1,7 +1,7 @@
 ---
 name: Bruce
 surname: Bolin
-position: "Operations Manager"
+position: "Director of Operations"
 address: "Bloomington IN"
 profilepic: "./img/2023professionalMe.png"
 email: "bruce.bolin@warranttek.com"
